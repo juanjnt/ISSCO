@@ -1,0 +1,8 @@
+H:\Escritorio\ISSCO\Programación\Clase 1\Prueba\Prueba\bin\Debug\Prueba.exe.config
+H:\Escritorio\ISSCO\Programación\Clase 1\Prueba\Prueba\bin\Debug\Prueba.exe
+H:\Escritorio\ISSCO\Programación\Clase 1\Prueba\Prueba\bin\Debug\Prueba.pdb
+H:\Escritorio\ISSCO\Programación\Clase 1\Prueba\Prueba\obj\Debug\Prueba.csproj.AssemblyReference.cache
+H:\Escritorio\ISSCO\Programación\Clase 1\Prueba\Prueba\obj\Debug\Prueba.csproj.SuggestedBindingRedirects.cache
+H:\Escritorio\ISSCO\Programación\Clase 1\Prueba\Prueba\obj\Debug\Prueba.csproj.CoreCompileInputs.cache
+H:\Escritorio\ISSCO\Programación\Clase 1\Prueba\Prueba\obj\Debug\Prueba.exe
+H:\Escritorio\ISSCO\Programación\Clase 1\Prueba\Prueba\obj\Debug\Prueba.pdb
