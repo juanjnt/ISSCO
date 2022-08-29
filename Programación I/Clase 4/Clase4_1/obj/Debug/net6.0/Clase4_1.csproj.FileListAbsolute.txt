@@ -1,0 +1,15 @@
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\bin\Debug\net6.0\Clase4_1.exe
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\bin\Debug\net6.0\Clase4_1.deps.json
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\bin\Debug\net6.0\Clase4_1.runtimeconfig.json
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\bin\Debug\net6.0\Clase4_1.dll
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\bin\Debug\net6.0\Clase4_1.pdb
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\obj\Debug\net6.0\Clase4_1.csproj.AssemblyReference.cache
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\obj\Debug\net6.0\Clase4_1.GeneratedMSBuildEditorConfig.editorconfig
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\obj\Debug\net6.0\Clase4_1.AssemblyInfoInputs.cache
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\obj\Debug\net6.0\Clase4_1.AssemblyInfo.cs
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\obj\Debug\net6.0\Clase4_1.csproj.CoreCompileInputs.cache
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\obj\Debug\net6.0\Clase4_1.dll
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\obj\Debug\net6.0\refint\Clase4_1.dll
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\obj\Debug\net6.0\Clase4_1.pdb
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\obj\Debug\net6.0\Clase4_1.genruntimeconfig.cache
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 4\Clase4_1\obj\Debug\net6.0\ref\Clase4_1.dll
