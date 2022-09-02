@@ -27,16 +27,36 @@ Console.WriteLine("Nota final " + resultadoTotal);*/
 Console.WriteLine("Ingrese el total de la venta");
 decimal total = Convert.ToDecimal(Console.ReadLine());
 
-decimal total5 = total - 5000;
-decimal total10 = total - 10000;
-decimal desc5;
-decimal desc10;
-if (total5 > 0)
-{
-    desc5 = (total5 * 5) / 100;
-    if (desc5 > )
-    {
+decimal desc5 = 0;
+decimal desc10 = 0;
 
+decimal valor;
+
+if (total > 5000)
+{
+    if (total > 10000)
+    {
+        desc5 = (5000 * 5) / 100;
+
+        desc10 = ((decimal)(total - 10000) * 10) / 100;
+        valor = total - (desc5 + desc10);
     }
+    else
+    {
+        desc5 = ((total - 5000) * 5) / 100;
+        valor = total - desc5;
+    }
+    
 }
+else
+{
+    valor = total;
+}
+Console.Clear();
+Console.WriteLine("Descuento  5% $" + desc5);
+Console.WriteLine("Descuento 10% $" + desc10);
+Console.WriteLine("-------------------");
+Console.WriteLine("Total ------- $" + valor);
+Console.ReadLine();
+
 
