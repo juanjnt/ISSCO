@@ -1,0 +1,15 @@
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\bin\Debug\net6.0\Clase 13.exe
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\bin\Debug\net6.0\Clase 13.deps.json
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\bin\Debug\net6.0\Clase 13.runtimeconfig.json
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\bin\Debug\net6.0\Clase 13.dll
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\bin\Debug\net6.0\Clase 13.pdb
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\obj\Debug\net6.0\Clase 13.csproj.AssemblyReference.cache
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\obj\Debug\net6.0\Clase 13.GeneratedMSBuildEditorConfig.editorconfig
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\obj\Debug\net6.0\Clase 13.AssemblyInfoInputs.cache
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\obj\Debug\net6.0\Clase 13.AssemblyInfo.cs
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\obj\Debug\net6.0\Clase 13.csproj.CoreCompileInputs.cache
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\obj\Debug\net6.0\Clase 13.dll
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\obj\Debug\net6.0\refint\Clase 13.dll
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\obj\Debug\net6.0\Clase 13.pdb
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\obj\Debug\net6.0\Clase 13.genruntimeconfig.cache
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 13\Clase 13\Clase 13\obj\Debug\net6.0\ref\Clase 13.dll
