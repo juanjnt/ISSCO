@@ -1,0 +1,15 @@
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\bin\Debug\net6.0\Clase15.exe
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\bin\Debug\net6.0\Clase15.deps.json
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\bin\Debug\net6.0\Clase15.runtimeconfig.json
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\bin\Debug\net6.0\Clase15.dll
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\bin\Debug\net6.0\Clase15.pdb
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\obj\Debug\net6.0\Clase15.csproj.AssemblyReference.cache
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\obj\Debug\net6.0\Clase15.GeneratedMSBuildEditorConfig.editorconfig
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\obj\Debug\net6.0\Clase15.AssemblyInfoInputs.cache
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\obj\Debug\net6.0\Clase15.AssemblyInfo.cs
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\obj\Debug\net6.0\Clase15.csproj.CoreCompileInputs.cache
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\obj\Debug\net6.0\Clase15.dll
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\obj\Debug\net6.0\refint\Clase15.dll
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\obj\Debug\net6.0\Clase15.pdb
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\obj\Debug\net6.0\Clase15.genruntimeconfig.cache
+H:\Escritorio\ISSCO\Programación\GitHub\ISSCO\Programación I\Clase 15\Clase15\Clase15\obj\Debug\net6.0\ref\Clase15.dll

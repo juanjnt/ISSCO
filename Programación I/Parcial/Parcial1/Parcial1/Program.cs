@@ -99,7 +99,7 @@ Calcular el costo del kilometro
 
  * */
 
-Console.WriteLine("Ingrese la cantidad de kilometros total del viaje");
+/*Console.WriteLine("Ingrese la cantidad de kilometros total del viaje");
 decimal kilometosTotal = Convert.ToDecimal(Console.ReadLine());
 Console.WriteLine("Ingrese la cantidad total de combustible consumido");
 decimal consumoTotal = Convert.ToDecimal(Console.ReadLine());
@@ -108,12 +108,59 @@ decimal combustibleKm = consumoTotal / kilometosTotal;
 Console.WriteLine("Cantidad de combustible por kilometro: " + combustibleKm);
 
 
-Console.WriteLine("Ingrese el precio del combustible");
+Console.WriteLine("Ingrese el precio del combustible");*/
 
 /*string a = "kadfn las aksdlmfñlaksmdflasldf lasdf mklñasm kldflmkaskdfl kasdlkmfñlkm asdkfklasdflkasdlf asld";
 int b = a.Length;
 Console.WriteLine(b);*/
 
-decimal precio = Convert.ToDecimal(Console.ReadLine());
+/*decimal precio = Convert.ToDecimal(Console.ReadLine());
 decimal costoKm = combustibleKm * precio;
-Console.WriteLine("Costo por kilometro recorrido: $" + costoKm);
+Console.WriteLine("Costo por kilometro recorrido: $" + costoKm);*/
+
+
+
+int carga = 0;
+Console.WriteLine("Ingrese la cantidad de canciones a cargar");
+int cantidad = Convert.ToInt32(Console.ReadLine());
+
+string[] titulos = new string[cantidad];
+int[] caracteres = new int[cantidad];
+guardar();
+
+
+
+void guardar()
+{
+
+    Console.WriteLine("Ingrese el titulo de la canción");
+    string titulo = Console.ReadLine();
+    Console.WriteLine("Ingrese la canción");
+    string cancion = Console.ReadLine();
+    int count = cancion.Length;
+    titulos[carga] = titulo;
+    caracteres[carga] = count;
+    ++carga;
+
+    if (cantidad != carga)
+    {
+        Console.Clear();
+        guardar();
+    }
+    else
+    {
+        Console.Clear();
+        for (int i = 0; i < titulos.Length; i++)
+        {
+            Console.WriteLine("Canción Nº" + (i + 1));
+            Console.WriteLine("Titulo: " + titulos[i]);
+            Console.WriteLine("Cantidad de caracteres: " + caracteres[i]);
+        }
+    }
+}
+
+
+
+  
+
+
