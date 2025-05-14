@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\Clase2\\",
+  "WorkspaceRootPath": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Clase2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0710FD51-D62B-4F49-826B-433DF5583856}|Clase2\\Clase2.csproj|g:\\escritorio\\issco\\programaci\u00F3n l\u00F3gica 2025\\clase2\\clase2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0710FD51-D62B-4F49-826B-433DF5583856}|Clase2\\Clase2.csproj|g:\\escritorio\\issco\\programaci\u00F3n l\u00F3gica 2025\\issco\\clase2\\clase2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0710FD51-D62B-4F49-826B-433DF5583856}|Clase2\\Clase2.csproj|solutionrelative:clase2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\Clase2\\Clase2\\Program.cs",
+              "DocumentMoniker": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Clase2\\Clase2\\Program.cs",
               "RelativeDocumentMoniker": "Clase2\\Program.cs",
-              "ToolTip": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\Clase2\\Clase2\\Program.cs",
+              "ToolTip": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Clase2\\Clase2\\Program.cs",
               "RelativeToolTip": "Clase2\\Program.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEYAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T22:58:25.288Z",
               "EditorCaption": ""

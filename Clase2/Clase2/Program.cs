@@ -70,3 +70,31 @@ Console.WriteLine($"Tiempo en recorrer el circuito: {tiempo}");*/
  * un algoritmo que permita mostrar 
  * cuánto es el rendimiento y el importe 
  * total a cobrar.*/
+/*
+const decimal tasa = ((decimal)78 / (decimal)365) * (decimal)30;
+while (true)
+{
+
+
+    Console.WriteLine("Ingrese el importe a invertir");
+    decimal importe = int.Parse(Console.ReadLine());
+    decimal rendiminto = (importe * tasa) / (decimal)100;
+    Console.WriteLine($"Rendimiento: ${rendiminto.ToString("N2")}, total a cobrar: ${(rendiminto + importe).ToString("N2")}");
+}*/
+
+
+/*Un comercio realiza descuentos de 10% 
+ * para compras superiores a 10.000. 
+ * Realiza un algoritmo para determinar 
+ * si se le aplica descuento a la compra 
+ * o no y mostrar que importe deberá abonar.*/
+
+decimal compra = 0;
+
+Console.WriteLine("Ingrese el valor de la compra");
+compra = decimal.Parse(Console.ReadLine());
+if (compra > 10000)
+{
+    compra -= (compra * (decimal)10) / (decimal)100;
+}
+Console.WriteLine($"Importe total a pagar: {compra.ToString("N2")}");
