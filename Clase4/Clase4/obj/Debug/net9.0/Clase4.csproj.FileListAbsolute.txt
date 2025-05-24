@@ -1,0 +1,15 @@
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\bin\Debug\net9.0\Clase4.exe
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\bin\Debug\net9.0\Clase4.deps.json
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\bin\Debug\net9.0\Clase4.runtimeconfig.json
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\bin\Debug\net9.0\Clase4.dll
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\bin\Debug\net9.0\Clase4.pdb
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\obj\Debug\net9.0\Clase4.GeneratedMSBuildEditorConfig.editorconfig
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\obj\Debug\net9.0\Clase4.AssemblyInfoInputs.cache
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\obj\Debug\net9.0\Clase4.AssemblyInfo.cs
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\obj\Debug\net9.0\Clase4.csproj.CoreCompileInputs.cache
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\obj\Debug\net9.0\Clase4.sourcelink.json
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\obj\Debug\net9.0\Clase4.dll
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\obj\Debug\net9.0\refint\Clase4.dll
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\obj\Debug\net9.0\Clase4.pdb
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\obj\Debug\net9.0\Clase4.genruntimeconfig.cache
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase4\Clase4\obj\Debug\net9.0\ref\Clase4.dll
