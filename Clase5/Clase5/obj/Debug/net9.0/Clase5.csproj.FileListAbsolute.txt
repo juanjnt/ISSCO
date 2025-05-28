@@ -1,0 +1,15 @@
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\bin\Debug\net9.0\Clase5.exe
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\bin\Debug\net9.0\Clase5.deps.json
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\bin\Debug\net9.0\Clase5.runtimeconfig.json
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\bin\Debug\net9.0\Clase5.dll
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\bin\Debug\net9.0\Clase5.pdb
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\obj\Debug\net9.0\Clase5.GeneratedMSBuildEditorConfig.editorconfig
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\obj\Debug\net9.0\Clase5.AssemblyInfoInputs.cache
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\obj\Debug\net9.0\Clase5.AssemblyInfo.cs
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\obj\Debug\net9.0\Clase5.csproj.CoreCompileInputs.cache
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\obj\Debug\net9.0\Clase5.sourcelink.json
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\obj\Debug\net9.0\Clase5.dll
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\obj\Debug\net9.0\refint\Clase5.dll
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\obj\Debug\net9.0\Clase5.pdb
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\obj\Debug\net9.0\Clase5.genruntimeconfig.cache
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Clase5\Clase5\obj\Debug\net9.0\ref\Clase5.dll
