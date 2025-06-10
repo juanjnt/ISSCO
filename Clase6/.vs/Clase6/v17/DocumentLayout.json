@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Nueva carpeta\\Clase6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B1341-0164-4BBF-BE58-C1C00FD6B48F}|Clase6\\Clase6.csproj|g:\\escritorio\\issco\\programaci\u00F3n l\u00F3gica 2025\\issco\\nueva carpeta\\clase6\\clase6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B1341-0164-4BBF-BE58-C1C00FD6B48F}|Clase6\\Clase6.csproj|solutionrelative:clase6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Nueva carpeta\\Clase6\\Clase6\\Program.cs",
+              "RelativeDocumentMoniker": "Clase6\\Program.cs",
+              "ToolTip": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Nueva carpeta\\Clase6\\Clase6\\Program.cs",
+              "RelativeToolTip": "Clase6\\Program.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T22:47:31.546Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
