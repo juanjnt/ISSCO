@@ -1,0 +1,15 @@
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\bin\Debug\net9.0\Parcial.exe
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\bin\Debug\net9.0\Parcial.deps.json
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\bin\Debug\net9.0\Parcial.runtimeconfig.json
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\bin\Debug\net9.0\Parcial.dll
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\bin\Debug\net9.0\Parcial.pdb
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\obj\Debug\net9.0\Parcial.GeneratedMSBuildEditorConfig.editorconfig
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\obj\Debug\net9.0\Parcial.AssemblyInfoInputs.cache
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\obj\Debug\net9.0\Parcial.AssemblyInfo.cs
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\obj\Debug\net9.0\Parcial.csproj.CoreCompileInputs.cache
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\obj\Debug\net9.0\Parcial.sourcelink.json
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\obj\Debug\net9.0\Parcial.dll
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\obj\Debug\net9.0\refint\Parcial.dll
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\obj\Debug\net9.0\Parcial.pdb
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\obj\Debug\net9.0\Parcial.genruntimeconfig.cache
+G:\Escritorio\ISSCO\Programación Lógica 2025\ISSCO\Parcial\Parcial\Parcial\obj\Debug\net9.0\ref\Parcial.dll

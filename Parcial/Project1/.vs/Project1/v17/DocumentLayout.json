@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Parcial\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E2E4756-80F8-4C91-B5EA-97C7262AFE6B}|..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\Clase5.UI.csproj|g:\\download\\actividadfinal\\clase5.ui\\excursionlistaform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E2E4756-80F8-4C91-B5EA-97C7262AFE6B}|..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\Clase5.UI.csproj|g:\\download\\actividadfinal\\clase5.ui\\excursionform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E2E4756-80F8-4C91-B5EA-97C7262AFE6B}|..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\Clase5.UI.csproj|g:\\download\\actividadfinal\\clase5.ui\\clientelistaform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E2E4756-80F8-4C91-B5EA-97C7262AFE6B}|..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\Clase5.UI.csproj|g:\\download\\actividadfinal\\clase5.ui\\clienteform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E2E4756-80F8-4C91-B5EA-97C7262AFE6B}|..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\Clase5.UI.csproj|g:\\download\\actividadfinal\\clase5.ui\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E2E4756-80F8-4C91-B5EA-97C7262AFE6B}|..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\Clase5.UI.csproj|g:\\download\\actividadfinal\\clase5.ui\\clientelistaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2371D1-0658-45A3-8FE9-488CDB47D5F2}|..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5\\Clase5.csproj|g:\\download\\actividadfinal\\clase5\\hoteles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2371D1-0658-45A3-8FE9-488CDB47D5F2}|..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5\\Clase5.csproj|g:\\download\\actividadfinal\\clase5\\excursion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2371D1-0658-45A3-8FE9-488CDB47D5F2}|..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5\\Clase5.csproj|g:\\download\\actividadfinal\\clase5\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExcursionListaForm.Designer.cs",
+              "DocumentMoniker": "G:\\Download\\ActividadFinal\\Clase5.UI\\ExcursionListaForm.Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\ExcursionListaForm.Designer.cs",
+              "ToolTip": "G:\\Download\\ActividadFinal\\Clase5.UI\\ExcursionListaForm.Designer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\ExcursionListaForm.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T18:38:17.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExcursionForm.Designer.cs",
+              "DocumentMoniker": "G:\\Download\\ActividadFinal\\Clase5.UI\\ExcursionForm.Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\ExcursionForm.Designer.cs",
+              "ToolTip": "G:\\Download\\ActividadFinal\\Clase5.UI\\ExcursionForm.Designer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\ExcursionForm.Designer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T18:38:12.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteListaForm.Designer.cs",
+              "DocumentMoniker": "G:\\Download\\ActividadFinal\\Clase5.UI\\ClienteListaForm.Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\ClienteListaForm.Designer.cs",
+              "ToolTip": "G:\\Download\\ActividadFinal\\Clase5.UI\\ClienteListaForm.Designer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\ClienteListaForm.Designer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T18:38:06.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteForm.Designer.cs",
+              "DocumentMoniker": "G:\\Download\\ActividadFinal\\Clase5.UI\\ClienteForm.Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\ClienteForm.Designer.cs",
+              "ToolTip": "G:\\Download\\ActividadFinal\\Clase5.UI\\ClienteForm.Designer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\ClienteForm.Designer.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T18:37:58.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "G:\\Download\\ActividadFinal\\Clase5.UI\\ClienteForm.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\ClienteForm.cs",
+              "ToolTip": "G:\\Download\\ActividadFinal\\Clase5.UI\\ClienteForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\ClienteForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T18:37:54.332Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClienteListaForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "G:\\Download\\ActividadFinal\\Clase5.UI\\ClienteListaForm.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\ClienteListaForm.cs",
+              "ToolTip": "G:\\Download\\ActividadFinal\\Clase5.UI\\ClienteListaForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5.UI\\ClienteListaForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T18:37:52.515Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Hoteles.cs",
+              "DocumentMoniker": "G:\\Download\\ActividadFinal\\Clase5\\Hoteles.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5\\Hoteles.cs",
+              "ToolTip": "G:\\Download\\ActividadFinal\\Clase5\\Hoteles.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5\\Hoteles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T18:37:27.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Excursion.cs",
+              "DocumentMoniker": "G:\\Download\\ActividadFinal\\Clase5\\Excursion.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5\\Excursion.cs",
+              "ToolTip": "G:\\Download\\ActividadFinal\\Clase5\\Excursion.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5\\Excursion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T18:36:49.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "G:\\Download\\ActividadFinal\\Clase5\\Cliente.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5\\Cliente.cs",
+              "ToolTip": "G:\\Download\\ActividadFinal\\Clase5\\Cliente.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Download\\ActividadFinal\\Clase5\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T18:36:47.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

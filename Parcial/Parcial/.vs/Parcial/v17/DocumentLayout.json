@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Parcial\\Parcial\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB16D3D-FA7A-4B49-B218-4917BD8AEB13}|Parcial\\Parcial.csproj|g:\\escritorio\\issco\\programaci\u00F3n l\u00F3gica 2025\\issco\\parcial\\parcial\\parcial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB16D3D-FA7A-4B49-B218-4917BD8AEB13}|Parcial\\Parcial.csproj|solutionrelative:parcial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Parcial\\Parcial\\Parcial\\Program.cs",
+              "RelativeDocumentMoniker": "Parcial\\Program.cs",
+              "ToolTip": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Parcial\\Parcial\\Parcial\\Program.cs",
+              "RelativeToolTip": "Parcial\\Program.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAC8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T22:41:22.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
