@@ -1,0 +1,15 @@
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\bin\Debug\net9.0\Clase2.exe
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\bin\Debug\net9.0\Clase2.deps.json
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\bin\Debug\net9.0\Clase2.runtimeconfig.json
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\bin\Debug\net9.0\Clase2.dll
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\bin\Debug\net9.0\Clase2.pdb
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\obj\Debug\net9.0\Clase2.GeneratedMSBuildEditorConfig.editorconfig
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\obj\Debug\net9.0\Clase2.AssemblyInfoInputs.cache
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\obj\Debug\net9.0\Clase2.AssemblyInfo.cs
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\obj\Debug\net9.0\Clase2.csproj.CoreCompileInputs.cache
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\obj\Debug\net9.0\Clase2.sourcelink.json
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\obj\Debug\net9.0\Clase2.dll
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\obj\Debug\net9.0\refint\Clase2.dll
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\obj\Debug\net9.0\Clase2.pdb
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\obj\Debug\net9.0\Clase2.genruntimeconfig.cache
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Nueva carpeta\Clase2\Clase2\obj\Debug\net9.0\ref\Clase2.dll
