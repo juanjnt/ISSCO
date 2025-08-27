@@ -35,8 +35,7 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T22:56:54.716Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -49,15 +48,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Clase2",
+              "Title": "Clase2.csproj",
               "DocumentMoniker": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Clase2.csproj",
               "RelativeDocumentMoniker": "Clase2\\Clase2.csproj",
               "ToolTip": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Clase2.csproj",
               "RelativeToolTip": "Clase2\\Clase2.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-22T23:05:13.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T23:05:13.175Z"
             },
             {
               "$type": "Document",
@@ -67,7 +65,7 @@
               "RelativeDocumentMoniker": "Clase2\\Program.cs",
               "ToolTip": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Program.cs",
               "RelativeToolTip": "Clase2\\Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAYwEwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwCkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T22:52:38.351Z",
               "EditorCaption": ""

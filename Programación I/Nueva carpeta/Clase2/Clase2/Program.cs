@@ -1,5 +1,4 @@
 ﻿using Clase2;
-using System.Security.Cryptography.X509Certificates;
 
 
 /*

@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\",
+  "WorkspaceRootPath": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BFEE33A-4161-4D06-A137-0C925DA490D6}|Clase2\\Clase2.csproj|g:\\archivos\\escritorio\\issco\\issco\\programaci\u00F3n i\\nueva carpeta\\clase2\\clase2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BFEE33A-4161-4D06-A137-0C925DA490D6}|Clase2\\Clase2.csproj|g:\\escritorio\\issco\\programaci\u00F3n l\u00F3gica 2025\\issco\\programaci\u00F3n i\\nueva carpeta\\clase2\\clase2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BFEE33A-4161-4D06-A137-0C925DA490D6}|Clase2\\Clase2.csproj|solutionrelative:clase2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BFEE33A-4161-4D06-A137-0C925DA490D6}|Clase2\\Clase2.csproj|g:\\archivos\\escritorio\\issco\\issco\\programaci\u00F3n i\\nueva carpeta\\clase2\\clase2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BFEE33A-4161-4D06-A137-0C925DA490D6}|Clase2\\Clase2.csproj|g:\\escritorio\\issco\\programaci\u00F3n l\u00F3gica 2025\\issco\\programaci\u00F3n i\\nueva carpeta\\clase2\\clase2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BFEE33A-4161-4D06-A137-0C925DA490D6}|Clase2\\Clase2.csproj|solutionrelative:clase2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BFEE33A-4161-4D06-A137-0C925DA490D6}|Clase2\\Clase2.csproj|g:\\archivos\\escritorio\\issco\\issco\\programaci\u00F3n i\\nueva carpeta\\clase2\\clase2\\clase2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{6BFEE33A-4161-4D06-A137-0C925DA490D6}|Clase2\\Clase2.csproj|g:\\escritorio\\issco\\programaci\u00F3n l\u00F3gica 2025\\issco\\programaci\u00F3n i\\nueva carpeta\\clase2\\clase2\\clase2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6BFEE33A-4161-4D06-A137-0C925DA490D6}|Clase2\\Clase2.csproj|solutionrelative:clase2\\clase2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Persona.cs",
-              "DocumentMoniker": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Persona.cs",
+              "DocumentMoniker": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Persona.cs",
               "RelativeDocumentMoniker": "Clase2\\Persona.cs",
-              "ToolTip": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Persona.cs",
+              "ToolTip": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Persona.cs",
               "RelativeToolTip": "Clase2\\Persona.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -49,9 +49,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Clase2.csproj",
-              "DocumentMoniker": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Clase2.csproj",
+              "DocumentMoniker": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Clase2.csproj",
               "RelativeDocumentMoniker": "Clase2\\Clase2.csproj",
-              "ToolTip": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Clase2.csproj",
+              "ToolTip": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Clase2.csproj",
               "RelativeToolTip": "Clase2\\Clase2.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -61,11 +61,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Program.cs",
+              "DocumentMoniker": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Program.cs",
               "RelativeDocumentMoniker": "Clase2\\Program.cs",
-              "ToolTip": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Program.cs",
+              "ToolTip": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Nueva carpeta\\Clase2\\Clase2\\Program.cs",
               "RelativeToolTip": "Clase2\\Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAYwCkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T22:52:38.351Z",
               "EditorCaption": ""
