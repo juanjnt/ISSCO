@@ -48,7 +48,9 @@ por litros + incentivo), si supera los 1.000 litros de leche se le paga 3% más 
 Mostrar cuánto recibe cada productor.
 Al final, mostrar la cantidad total de litros entregados por todos los 
 productores y el total en pago que realiza la empresa lactea en el día.*/
-double litrosTotales = 0; double pagoTotal = 0;
+
+
+/*double litrosTotales = 0; double pagoTotal = 0;
 
 Console.WriteLine("Ingrese el precio de la leche por litro:");
 double precioLeche = double.Parse(Console.ReadLine());
@@ -85,4 +87,38 @@ double PagoProducto(double litros)
 		incentivo += pagoLeche * 0.03;
     }
 	return pagoLeche + incentivo;
+}*/
+
+
+/*3- Una concesionaria registra las ventas de autos en un día. Por cada venta, 
+ * el vendedor recibe un comisión del 1.5% del precio del auto vendido, 
+ * con más de 5 autos tiene un bono de $350.000
+
+El programa debe:
+
+Solicitar la cantidad total de autos vendidos.
+Para cada venta, ingresar el precio del auto.
+Calcular la comisión del vendedor (1.5% del precio).
+Mostrar cuánto recibe el vendedor.*/
+
+const double comision = 1.5, bono = 350000;
+double total = 0;
+Console.WriteLine("Ingrese la cantidad de autos vendidos:");
+int autosVendidos = int.Parse(Console.ReadLine());
+
+double ComisionAuto(double precio)
+{
+	return (precio * comision) / 100;
 }
+
+for (int i = 0; i < autosVendidos; i++)
+{
+	Console.WriteLine($"Ingrese el valor del auto Nº {i + 1}");
+	double precioAuto = double.Parse(Console.ReadLine());
+    double calculoComision = ComisionAuto(precioAuto);
+    total += calculoComision;
+}
+
+if (autosVendidos > 5)	
+	total += bono;
+Console.WriteLine($"Total a cobrar: ${total.ToString("N2")}");
