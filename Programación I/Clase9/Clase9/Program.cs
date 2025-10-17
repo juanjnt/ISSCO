@@ -1,75 +1,185 @@
-﻿/*1- Se registran las ventas diarias de un local comercial.
-Se deben ingresar ventas de forma indeterminada, calcular el total de ventas y el promedio por ventas
-Si la venta supera los $100.000, obtiene un descuento del 15%.
-2- Se desea realizar un programa en el cual se pueda fidelizar a quienes más viajan.
-Ingresar la cantidad de viajes y el importe pagado en cada uno.
-Mostrar el total pagado en viajes.
-Si realizo más de 10 viajes o el importe gastado supera los 10.000 se realiza una devolución del 30%.
-Mostrar importe a devolver.*/
-/*
-bool continuar = true;
-double total = 0,  promedio = 0;
-int cantidad = 0;
-while (continuar)
+﻿/*
+4- Un banco implemente un sistema de inversiones, 
+el usuario necesita saber cuales son las ganancia de acuerdo a las opciones, 
+se obtiene un interes del 35% anual a entre 30 y 59 días, 
+un interes del 40% anual entre 60 y 89 días y para 90 o más 43% anual.
+El usuario ingresa el monto a invertir en pesos.
+Calcular cuánto tendrá al final de un año si se capitaliza anualmente.
+Mostrar monto final en pesos argentinos.
+ 
+ */
+
+
+using System.Diagnostics;
+
+double importe = 0, tasa = 0,  pago = 0;
+
+
+void DatosIniciales()
 {
-    Console.WriteLine("Ingresar una nueva venta? 1- Si  2- No");
-    if (int.Parse(Console.ReadLine()) == 1)
+    while (importe == 0)
     {
-        Console.WriteLine("Ingrese el importe de la venta");
-        double venta = double.Parse(Console.ReadLine());
-        venta = descuento(venta);
-        Console.WriteLine($"Importe a pagar $ {venta.ToString("N2")}");
-        total += venta;
-        cantidad++;
+        Console.WriteLine("Ingrese el importe a invertir");
+        importe = ValidarNumero(Console.ReadLine());
     }
-    else
+    while (tasa == 0)
     {
-        continuar = false;
-        Console.WriteLine($"Total recaudado ${total.ToString("N2")}");
-        promedio = total / (double)cantidad;
-        Console.WriteLine($"Promedio de venta ${promedio.ToString("N2")}");
-        Console.WriteLine($"Total de ventas {cantidad}");
+        Console.WriteLine("Ingrese la tasa de interes");
+        tasa = ValidarNumero(Console.ReadLine());
     }
 }
 
 
-double descuento(double venta)
+List<string> menu = new List<string>() { "Simular", "Invertir", "Salir" };
+MenuListaValidado(menu);
+MenuPrincipal();
+Console.WriteLine($"Total pagado: ${pago.ToString("N2")}");
+
+void MenuPrincipal()
 {
-    if (venta > 100000)
+    Console.Clear();
+    List<string> menu = new List<string>() { "Simular", "Invertir", "Salir" };
+    int respuesta = MenuLista(menu);
+    switch (respuesta)
     {
-        return venta * 0.85;
+        case 1:
+            MenuCalculo(true);
+            break;
+        case 2:
+            MenuCalculo(false);
+            break;
+        default:
+            break;
     }
-    return venta;
-}*/
-
-/*2- Se desea realizar un programa en el cual se pueda fidelizar a quienes más viajan.
-Ingresar la cantidad de viajes y el importe pagado en cada uno.
-Mostrar el total pagado en viajes.
-Si realizo más de 10 viajes o el importe gastado supera los 10.000 se realiza una devolución del 30%.
-Mostrar importe a devolver.*/
-
-Console.WriteLine("Ingrese la cantidad de viajes");
-int viajes = int.Parse(Console.ReadLine());
-double total= 0;
-
-for (int i = 1; i <= viajes; i++)
-{
-    Console.WriteLine($"Ingrese el importe del viaje Nº{i}");
-    total += double.Parse(Console.ReadLine());
 }
-Fidelizar();
 
-
-
-void Fidelizar()
+void ResultadoCalculo(int respuesta, int dias,  double importe, bool simular)
 {
-    if (total > 10000 || viajes > 10)
+    switch (respuesta)
     {
-        Console.WriteLine($"Corresponde devolución: ${(total * 0.3).ToString("N2")}");
-         
+        case 1:
+            importe = CalculoDeInversion(dias, 35, importe);
+            break;
+        case 2:
+            importe = CalculoDeInversion(dias, 40, importe);
+            break;
+        case 3:
+            importe = CalculoDeInversion(dias, 43, importe);
+            break;
+        case 4:
+            MenuPrincipal();
+            break;
+        default:
+            break;
     }
-    else
+    if (!simular)
     {
-        Console.WriteLine("No corresponde devolución");
+        pago += importe;
+    }
+    Console.WriteLine("[Enter para continuar]");
+    Console.ReadLine();
+    MenuPrincipal();
+
+
+}
+
+
+void MenuCalculo(bool simular)
+{
+    Console.Clear();
+    List<string> menu = new List<string>() { "35% 30 a 59 días", "40% 60 a 89 días", "43% más 90 días", "Volver" };
+    int respuesta = MenuLista(menu);
+    int diasCalculo = 0;
+    while (diasCalculo == 0)
+    {
+        Console.WriteLine("Ingrese los días a invertir");
+        diasCalculo = ValidarEntero(Console.ReadLine());
+    }
+    double importeInvertir = 0;
+    while (importeInvertir == 0)
+    {
+        Console.WriteLine("Ingrese el importe a invertir");
+        importeInvertir = ValidarNumero(Console.ReadLine());
+    }
+
+    ResultadoCalculo(respuesta, diasCalculo, importeInvertir, simular);
+}
+
+
+double CalculoDeInversion(int dias, double porcentaje, double importe)
+{
+    double tasa = (porcentaje / 365.0) * (double)dias;
+    double ganancia = (tasa * importe) / 100;
+    Console.WriteLine($"Ganancia calculada: {ganancia.ToString("N2")}");
+    return ganancia;
+}
+
+
+int MenuLista(List<string> lista)
+{
+    for (int i = 0; i < lista.Count; i++)
+    {
+        Console.WriteLine($"{i+1}- {lista[i]}");
+    }
+    int valor = 0;
+    while (valor == 0)
+    {
+        Console.WriteLine("Seleccione una opción");
+        valor = ValidarEntero(Console.ReadLine());
+    }
+    return valor;
+}
+
+
+double ValidarNumero(string valor)
+{
+    double num;
+    if (!double.TryParse(valor, out num))
+    {
+        Console.Clear();
+        Console.WriteLine("Error al convertir el número");
+        return num;
+    }
+    return num;
+}
+
+
+int ValidarEntero(string valor)
+{
+    int num;
+    if (!int.TryParse(valor, out num))
+    {
+        Console.WriteLine("Error al convertir el número");
+        return num;
+    }
+    return num;
+}
+
+
+void MenuListaValidado(List<string> lista)
+{
+    for (int i = 0; i < lista.Count; i++)
+    {
+        Console.WriteLine($"{i + 1}- {lista[i]}");
+    }
+    int valor = 0;
+    if (!int.TryParse(Console.ReadLine(), out valor))
+    {
+        MenuListaValidado(lista);
+    }
+    switch (valor)
+    {
+        case 1:
+            Console.WriteLine("Opción 1");
+            break;
+        case 2:
+            Console.WriteLine("Opción 2");
+            break;
+        case 3:
+            Console.WriteLine("Opción 3");
+            break;
+        default:
+            MenuListaValidado(lista);
+            break;
     }
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Escritorio\\ISSCO\\Programación Lógica 2025\\ISSCO\\Programación I\\Clase9\\Clase9\\Clase9.csproj",
+      "projectUniqueName": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programación I\\Clase9\\Clase9\\Clase9.csproj",
       "projectName": "Clase9",
-      "projectPath": "G:\\Escritorio\\ISSCO\\Programación Lógica 2025\\ISSCO\\Programación I\\Clase9\\Clase9\\Clase9.csproj",
+      "projectPath": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programación I\\Clase9\\Clase9\\Clase9.csproj",
       "packagesPath": "C:\\Users\\juan_\\.nuget\\packages\\",
-      "outputPath": "G:\\Escritorio\\ISSCO\\Programación Lógica 2025\\ISSCO\\Programación I\\Clase9\\Clase9\\obj\\",
+      "outputPath": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programación I\\Clase9\\Clase9\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

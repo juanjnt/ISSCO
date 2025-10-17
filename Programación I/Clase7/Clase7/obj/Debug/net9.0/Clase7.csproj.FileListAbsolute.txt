@@ -1,0 +1,15 @@
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\bin\Debug\net9.0\Clase7.exe
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\bin\Debug\net9.0\Clase7.deps.json
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\bin\Debug\net9.0\Clase7.runtimeconfig.json
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\bin\Debug\net9.0\Clase7.dll
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\bin\Debug\net9.0\Clase7.pdb
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\obj\Debug\net9.0\Clase7.GeneratedMSBuildEditorConfig.editorconfig
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\obj\Debug\net9.0\Clase7.AssemblyInfoInputs.cache
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\obj\Debug\net9.0\Clase7.AssemblyInfo.cs
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\obj\Debug\net9.0\Clase7.csproj.CoreCompileInputs.cache
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\obj\Debug\net9.0\Clase7.sourcelink.json
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\obj\Debug\net9.0\Clase7.dll
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\obj\Debug\net9.0\refint\Clase7.dll
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\obj\Debug\net9.0\Clase7.pdb
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\obj\Debug\net9.0\Clase7.genruntimeconfig.cache
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase7\Clase7\obj\Debug\net9.0\ref\Clase7.dll
