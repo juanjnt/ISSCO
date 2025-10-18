@@ -1,0 +1,15 @@
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\bin\Debug\net9.0\Clase13.exe
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\bin\Debug\net9.0\Clase13.deps.json
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\bin\Debug\net9.0\Clase13.runtimeconfig.json
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\bin\Debug\net9.0\Clase13.dll
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\bin\Debug\net9.0\Clase13.pdb
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\obj\Debug\net9.0\Clase13.GeneratedMSBuildEditorConfig.editorconfig
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\obj\Debug\net9.0\Clase13.AssemblyInfoInputs.cache
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\obj\Debug\net9.0\Clase13.AssemblyInfo.cs
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\obj\Debug\net9.0\Clase13.csproj.CoreCompileInputs.cache
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\obj\Debug\net9.0\Clase13.sourcelink.json
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\obj\Debug\net9.0\Clase13.dll
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\obj\Debug\net9.0\refint\Clase13.dll
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\obj\Debug\net9.0\Clase13.pdb
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\obj\Debug\net9.0\Clase13.genruntimeconfig.cache
+G:\Archivos\Escritorio\ISSCO\ISSCO\Programación I\Clase13\Clase13\obj\Debug\net9.0\ref\Clase13.dll
