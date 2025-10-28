@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Clase14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40981C89-170C-4A93-AA66-B5AF28AB07AC}|Clase14\\Clase14.csproj|g:\\escritorio\\issco\\programaci\u00F3n l\u00F3gica 2025\\issco\\programaci\u00F3n i\\clase14\\clase14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40981C89-170C-4A93-AA66-B5AF28AB07AC}|Clase14\\Clase14.csproj|solutionrelative:clase14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40981C89-170C-4A93-AA66-B5AF28AB07AC}|Clase14\\Clase14.csproj|g:\\escritorio\\issco\\programaci\u00F3n l\u00F3gica 2025\\issco\\programaci\u00F3n i\\clase14\\clase14\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40981C89-170C-4A93-AA66-B5AF28AB07AC}|Clase14\\Clase14.csproj|solutionrelative:clase14\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40981C89-170C-4A93-AA66-B5AF28AB07AC}|Clase14\\Clase14.csproj|g:\\escritorio\\issco\\programaci\u00F3n l\u00F3gica 2025\\issco\\programaci\u00F3n i\\clase14\\clase14\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40981C89-170C-4A93-AA66-B5AF28AB07AC}|Clase14\\Clase14.csproj|solutionrelative:clase14\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Clase14\\Clase14\\Producto.cs",
+              "RelativeDocumentMoniker": "Clase14\\Producto.cs",
+              "ToolTip": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Clase14\\Clase14\\Producto.cs",
+              "RelativeToolTip": "Clase14\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T23:29:14.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Clase14\\Clase14\\Estudiante.cs",
+              "RelativeDocumentMoniker": "Clase14\\Estudiante.cs",
+              "ToolTip": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Clase14\\Clase14\\Estudiante.cs",
+              "RelativeToolTip": "Clase14\\Estudiante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T23:09:46.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Clase14\\Clase14\\Program.cs",
+              "RelativeDocumentMoniker": "Clase14\\Program.cs",
+              "ToolTip": "G:\\Escritorio\\ISSCO\\Programaci\u00F3n L\u00F3gica 2025\\ISSCO\\Programaci\u00F3n I\\Clase14\\Clase14\\Program.cs",
+              "RelativeToolTip": "Clase14\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T23:07:57.141Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

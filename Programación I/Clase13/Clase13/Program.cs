@@ -138,26 +138,26 @@ void Resultados()
 }
 
 
-double ValidacionDouble()
-{
-    double valor = 0;
-    while (!double.TryParse(Console.ReadLine(), out valor))
+    double ValidacionDouble()
     {
-        Console.WriteLine("Valor incorrecto");
+        double valor = 0;
+        while (!double.TryParse(Console.ReadLine(), out valor))
+        {
+            Console.WriteLine("Valor incorrecto");
+        }
+        return valor;
     }
-    return valor;
-}
 
-string ValidacionString()
-{
-    string nombre = string.Empty;
-    while (true)
+    string ValidacionString()
     {
-        nombre = Console.ReadLine();
-        if (string.IsNullOrWhiteSpace(nombre))
-            Console.WriteLine("Error en el valor ingresado");
-        else
-            break;
+        string nombre = string.Empty;
+        while (true)
+        {
+            nombre = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(nombre))
+                Console.WriteLine("Error en el valor ingresado");
+            else
+                break;
+        }
+        return nombre;
     }
-    return nombre;
-}

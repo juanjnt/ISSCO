@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programación I\\Clase13\\Clase13\\Clase13.csproj",
+      "projectUniqueName": "G:\\Escritorio\\ISSCO\\Programación Lógica 2025\\ISSCO\\Programación I\\Clase13\\Clase13\\Clase13.csproj",
       "projectName": "Clase13",
-      "projectPath": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programación I\\Clase13\\Clase13\\Clase13.csproj",
+      "projectPath": "G:\\Escritorio\\ISSCO\\Programación Lógica 2025\\ISSCO\\Programación I\\Clase13\\Clase13\\Clase13.csproj",
       "packagesPath": "C:\\Users\\juan_\\.nuget\\packages\\",
-      "outputPath": "G:\\Archivos\\Escritorio\\ISSCO\\ISSCO\\Programación I\\Clase13\\Clase13\\obj\\",
+      "outputPath": "G:\\Escritorio\\ISSCO\\Programación Lógica 2025\\ISSCO\\Programación I\\Clase13\\Clase13\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
