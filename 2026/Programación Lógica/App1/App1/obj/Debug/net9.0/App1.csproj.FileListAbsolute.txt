@@ -1,0 +1,14 @@
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\obj\Debug\net9.0\App1.GeneratedMSBuildEditorConfig.editorconfig
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\obj\Debug\net9.0\App1.AssemblyInfoInputs.cache
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\obj\Debug\net9.0\App1.AssemblyInfo.cs
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\obj\Debug\net9.0\App1.csproj.CoreCompileInputs.cache
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\bin\Debug\net9.0\App1.exe
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\bin\Debug\net9.0\App1.deps.json
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\bin\Debug\net9.0\App1.runtimeconfig.json
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\bin\Debug\net9.0\App1.dll
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\bin\Debug\net9.0\App1.pdb
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\obj\Debug\net9.0\App1.dll
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\obj\Debug\net9.0\refint\App1.dll
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\obj\Debug\net9.0\App1.pdb
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\obj\Debug\net9.0\App1.genruntimeconfig.cache
+G:\Archivos\Escritorio\ISSCO\2026\Programación Lógica\Proyecto 1\App1\App1\obj\Debug\net9.0\ref\App1.dll
