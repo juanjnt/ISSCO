@@ -1,0 +1,15 @@
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\bin\Debug\net8.0\App2.exe
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\bin\Debug\net8.0\App2.deps.json
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\bin\Debug\net8.0\App2.runtimeconfig.json
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\bin\Debug\net8.0\App2.dll
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\bin\Debug\net8.0\App2.pdb
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\obj\Debug\net8.0\App2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\obj\Debug\net8.0\App2.AssemblyInfoInputs.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\obj\Debug\net8.0\App2.AssemblyInfo.cs
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\obj\Debug\net8.0\App2.csproj.CoreCompileInputs.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\obj\Debug\net8.0\App2.sourcelink.json
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\obj\Debug\net8.0\App2.dll
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\obj\Debug\net8.0\refint\App2.dll
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\obj\Debug\net8.0\App2.pdb
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\obj\Debug\net8.0\App2.genruntimeconfig.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación Lógica\App2\App2\App2\obj\Debug\net8.0\ref\App2.dll
