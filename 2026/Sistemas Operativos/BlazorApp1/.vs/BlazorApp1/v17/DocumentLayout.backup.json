@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Sistemas Operativos\\BlazorApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25C5077A-AF95-42AA-B9CC-368ED0D9EA41}|BlazorApp1\\BlazorApp1.csproj|e:\\desarrollo\\repositorios\\issco\\2026\\sistemas operativos\\blazorapp1\\blazorapp1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C5077A-AF95-42AA-B9CC-368ED0D9EA41}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C5077A-AF95-42AA-B9CC-368ED0D9EA41}|BlazorApp1\\BlazorApp1.csproj|e:\\desarrollo\\repositorios\\issco\\2026\\sistemas operativos\\blazorapp1\\blazorapp1\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25C5077A-AF95-42AA-B9CC-368ED0D9EA41}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.razor",
+              "DocumentMoniker": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Sistemas Operativos\\BlazorApp1\\BlazorApp1\\App.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\App.razor",
+              "ToolTip": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Sistemas Operativos\\BlazorApp1\\BlazorApp1\\App.razor*",
+              "RelativeToolTip": "BlazorApp1\\App.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-11T23:35:10.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Sistemas Operativos\\BlazorApp1\\BlazorApp1\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Pages\\Home.razor",
+              "ToolTip": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Sistemas Operativos\\BlazorApp1\\BlazorApp1\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorApp1\\Pages\\Home.razor",
+              "ViewState": "AgIAAHYCAAAAAAAAAAAuwCEDAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-11T23:33:21.726Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

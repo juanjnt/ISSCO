@@ -1,0 +1,802 @@
+﻿@page "/"
+@using System.Threading.Tasks
+@inject IJSRuntime JSRuntime
+
+<div class="game-container">
+
+    <div class="crt-screen-bg">
+        <div class="crt-flicker"></div>
+        <div class="crt-scanlines"></div>
+    </div>
+
+    <header class="game-header">
+        <h1>GeoCode</h1>
+    </header>
+    <div class="stats-bar">
+        <div class="stat-box">
+            <span class="stat-label">🏆 Victorias Totales:</span>
+            <span class="stat-value text-success">@VictoriasTotales</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">🗺️ Mapas Jugados:</span>
+            <span class="stat-value text-info">@ContadorMapas</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">🎯 Intentos en este Mapa:</span>
+            <span class="stat-value text-warning">@IntentosMapaActual</span>
+        </div>
+    </div>
+
+    <div class="game-layout">
+        <section class="panel board-panel rainbow-bg">
+            <h2>GeoCode - Nivel Activo</h2>
+            <div class="grid-board">
+                @for (int r = 0; r < Filas; r++)
+                {
+                    <div class="grid-row">
+                        @for (int c = 0; c < Columnas; c++)
+                        {
+                            int filaActual = r;
+                            int colActual = c;
+                            string claseCelda = ObtenerClaseCelda(filaActual, colActual);
+
+                            <div class="grid-cell @claseCelda" style="position: relative;">
+                                @if (RobotFila == filaActual && RobotColumna == colActual)
+                                {
+                                    <span class="robot" style="transform: rotate(@(ObtenerRotacionRobot())deg); display: inline-block;">🤖</span>
+                                }
+                                else if (MatrizLaberinto[filaActual, colActual] == 1)
+                                {
+                                    <span class="obstaculo-icono">❌</span>
+                                }
+                                else if (MatrizLaberinto[filaActual, colActual] == 2)
+                                {
+                                    <span class="meta">🟩</span>
+                                }
+
+                                @if (filaActual == RobotFilaInicio && colActual == RobotColumnaInicio && !EstaEjecutando && IndiceLineaActiva == -1 && RobotFila == RobotFilaInicio && RobotColumna == RobotColumnaInicio)
+                                {
+                                    <div class="tooltip-inicio">¡Inicias acá!</div>
+                                }
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        </section>
+
+        <section class="panel control-panel console-bg">
+            <h2>Comandos</h2>
+
+            <div class="d-pad-container">
+                <div class="d-pad">
+                    <div></div>
+                    <button class="btn btn-arcade" @onclick="ComandoNorte" disabled="@EstaEjecutando">⬆️</button>
+                    <div></div>
+
+                    <button class="btn btn-arcade" @onclick="ComandoOeste" disabled="@EstaEjecutando">⬅️</button>
+                    <div class="d-pad-center"></div>
+                    <button class="btn btn-arcade" @onclick="ComandoEste" disabled="@EstaEjecutando">➡️</button>
+
+                    <div></div>
+                    <button class="btn btn-arcade" @onclick="ComandoSur" disabled="@EstaEjecutando">⬇️</button>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="actions-section">
+                <button class="btn btn-success" @onclick="EjecutarSecuencia" disabled="@(EstaEjecutando || ColaComandos.Count == 0)">
+                    ▶️ Ejecutar Código
+                </button>
+                <button class="btn btn-warning" @onclick="ReiniciarSoloRobot" disabled="@EstaEjecutando">
+                    ↩️ Reiniciar Robot
+                </button>
+                <button class="btn btn-secondary" @onclick="CambiarMapaCompleto" disabled="@EstaEjecutando">
+                    🔄 Nuevo Mapa
+                </button>
+            </div>
+
+            @if (!string.IsNullOrEmpty(MensajeEstado))
+            {
+                <div class="alert @ClaseMensaje">
+                    @MensajeEstado
+                </div>
+            }
+        </section>
+
+        <section class="panel code-panel matrix-bg">
+            <h2>Consola de Código (C# Simulado)</h2>
+            <div class="code-editor">
+                <div class="matrix-effect"></div>
+                <pre><code><span class="keyword">inicio;</span>
+@if (ColaComandos != null)
+{
+        @for (int i = 0; i < ColaComandos.Count; i++)
+        {
+                int indexActual = i;
+                        <div class="code-line @(IndiceLineaActiva == indexActual ? "active-line" : "")">robot.@(ColaComandos[indexActual])();</div>
+        }
+}
+<span class="keyword">fin;</span></code></pre>
+            </div>
+        </section>
+    </div>
+</div>
+
+<style>
+    .game-container {
+        font-family: 'Segoe UI', sans-serif;
+        color: #ffffff;
+        padding: 20px;
+        min-height: 100vh;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        background-color: #111;
+    }
+
+    .crt-screen-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle, #22252a 0%, #0c0d10 100%);
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    .crt-scanlines {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.04), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.04));
+        background-size: 100% 4px, 6px 100%;
+        z-index: 5;
+        pointer-events: none;
+    }
+
+    .crt-flicker {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(18, 16, 16, 0);
+        opacity: 0.12;
+        z-index: 4;
+        pointer-events: none;
+        animation: crt-glow 0.2s infinite;
+    }
+
+    @@keyframes crt-glow {
+        0% {
+            opacity: 0.08;
+            background-color: rgba(255,255,255,0.02);
+        }
+
+        50% {
+            opacity: 0.11;
+            background-color: rgba(0,0,0,0.01);
+        }
+
+        100% {
+            opacity: 0.08;
+            background-color: rgba(255,255,255,0.02);
+        }
+    }
+
+    .game-header {
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        position: relative;
+        z-index: 10;
+    }
+
+        .game-header h1 {
+            color: #ffffff;
+            font-size: 50px;
+            margin: 0;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(255,255,255,0.4);
+        }
+
+    .stats-bar {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 25px;
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 10;
+    }
+
+    .stat-box {
+        background-color: rgba(25, 25, 25, 0.85);
+        border: 1px solid #444;
+        padding: 10px 20px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+
+    .stat-label {
+        font-weight: 500;
+        color: #aaa;
+    }
+
+    .stat-value {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    .text-success {
+        color: #4caf50;
+        text-shadow: 0 0 5px rgba(76,175,80,0.4);
+    }
+
+    .text-info {
+        color: #00bcd4;
+        text-shadow: 0 0 5px rgba(0,188,212,0.4);
+    }
+
+    .text-warning {
+        color: #ff9800;
+        text-shadow: 0 0 5px rgba(255,152,0,0.4);
+    }
+
+    .game-layout {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        z-index: 10;
+    }
+
+    .panel {
+        background-color: rgba(34, 34, 34, 0.9);
+        border: 2px solid #444;
+        border-radius: 8px;
+        padding: 15px;
+        flex: 1;
+        min-width: 300px;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        color: #ccc;
+        margin-top: 0;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #444;
+        padding-bottom: 5px;
+        position: relative;
+        z-index: 11;
+    }
+
+    .rainbow-bg {
+        background: linear-gradient( to bottom right, rgba(255, 0, 0, 0.08), rgba(255, 165, 0, 0.08), rgba(255, 255, 0, 0.08), rgba(0, 128, 0, 0.08), rgba(0, 0, 255, 0.08), rgba(75, 0, 130, 0.08), rgba(238, 130, 238, 0.08) );
+    }
+
+    .console-bg {
+        background-color: #2b2b2b;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+        background-size: 12px 12px;
+    }
+
+    .matrix-bg {
+        background-color: #000;
+        border-color: #004400;
+    }
+
+    .code-editor {
+        position: relative;
+        min-height: 250px;
+    }
+
+    .matrix-effect {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(180deg, transparent, rgba(0, 255, 0, 0.04) 50%, transparent);
+        background-size: 100% 20px;
+        animation: matrix-scan 2.5s linear infinite;
+    }
+
+    @@keyframes matrix-scan {
+        0% {
+            background-position: 0 0;
+        }
+
+        100% {
+            background-position: 0 20px;
+        }
+    }
+
+    .code-editor pre {
+        background-color: transparent;
+        padding: 15px;
+        border-radius: 4px;
+        margin: 0;
+        font-family: 'Consolas', monospace;
+        color: #33ff33;
+        font-size: 0.95rem;
+        line-height: 1.5;
+        position: relative;
+        z-index: 12;
+        text-shadow: 0 0 4px rgba(51,255,51,0.4);
+    }
+
+    .keyword {
+        color: #66b2ff;
+        font-weight: bold;
+    }
+
+    .code-line {
+        padding-left: 15px;
+        color: #33ff33;
+        transition: background-color 0.2s;
+    }
+
+    .active-line {
+        background-color: rgba(0, 255, 0, 0.25) !important;
+        color: #ffffff !important;
+        font-weight: bold;
+    }
+
+    .d-pad-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+        position: relative;
+        z-index: 12;
+    }
+
+    .d-pad {
+        display: grid;
+        grid-template-columns: repeat(3, 60px);
+        grid-template-rows: repeat(3, 60px);
+        gap: 5px;
+    }
+
+    .btn-arcade {
+        background-color: #1a1a1a;
+        border: 3px solid #000;
+        border-radius: 8px;
+        color: white;
+        font-size: 1.6rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 5px 0 #000;
+        transition: all 0.1s ease;
+        padding: 0;
+    }
+
+        .btn-arcade:hover {
+            background-color: #252525;
+        }
+
+        .btn-arcade:active {
+            transform: translateY(4px);
+            box-shadow: 0 1px 0 #000;
+        }
+
+        .btn-arcade:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: 0 5px 0 #000;
+        }
+
+    .d-pad-center {
+        background-color: transparent;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        border: 1px solid #444;
+        border-radius: 3px;
+        cursor: pointer;
+        font-weight: bold;
+        background-color: #252525;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        z-index: 12;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    }
+
+        .btn:hover {
+            background-color: #353535;
+        }
+
+        .btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+    .btn-success {
+        background-color: #1b5e20;
+        border-color: #0d3c11;
+    }
+
+        .btn-success:hover {
+            background-color: #2e7d32;
+        }
+
+    .btn-warning {
+        background-color: #b33900;
+        border-color: #802000;
+    }
+
+        .btn-warning:hover {
+            background-color: #e65100;
+        }
+
+    .btn-secondary {
+        background-color: #555;
+        border-color: #444;
+    }
+
+    .actions-section {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        z-index: 12;
+    }
+
+    .grid-board {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        background-color: #222;
+        padding: 4px;
+        width: fit-content;
+        margin: 0 auto;
+        position: relative;
+        z-index: 12;
+        box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    .grid-row {
+        display: flex;
+        gap: 2px;
+    }
+
+    .grid-cell {
+        width: 50px;
+        height: 50px;
+        background-color: #0b0b0b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        border: 1px solid #151515;
+    }
+
+    .celda-obstaculo {
+        background-color: #1a1a1a;
+    }
+
+    .obstaculo-icono {
+        font-size: 1.2rem;
+        filter: drop-shadow(0 0 2px rgba(255,0,0,0.5));
+    }
+
+    .celda-meta {
+        background-color: #1b5e20;
+        box-shadow: inset 0 0 10px rgba(0,255,0,0.3);
+    }
+
+    .tooltip-inicio {
+        position: absolute;
+        bottom: 55px;
+        background-color: #0d47a1;
+        color: white;
+        font-size: 0.7rem;
+        font-weight: bold;
+        padding: 4px 8px;
+        border-radius: 4px;
+        white-space: nowrap;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+        animation: flotar 1.5s infinite alternate;
+        z-index: 15;
+    }
+
+    @@keyframes flotar {
+        from {
+            transform: translateY(0);
+        }
+
+        to {
+            transform: translateY(-4px);
+        }
+    }
+
+    .alert {
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        position: relative;
+        z-index: 12;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    .alert-success {
+        background-color: #1b5e20;
+        color: #c8e6c9;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    }
+
+    .alert-danger {
+        background-color: #7f0000;
+        color: #ffcdd2;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    }
+
+    .alert-info {
+        background-color: #0a3678;
+        color: #bbdefb;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    }
+</style>
+
+@code {
+    private int Filas = 7;
+    private int Columnas = 7;
+    private int[,] MatrizLaberinto = new int[7, 7];
+
+    private int RobotFilaInicio = 6;
+    private int RobotColumnaInicio = 0;
+    private int RobotFila;
+    private int RobotColumna;
+    private int DireccionActual = 0;
+    private int IndiceLineaActiva = -1;
+
+    private int VictoriasTotales = 0;
+    private int ContadorMapas = 1;
+    private int IntentosMapaActual = 0;
+
+    private List<string> ColaComandos = new List<string>();
+    private bool EstaEjecutando = false;
+    private string MensajeEstado = "";
+    private string ClaseMensaje = "";
+
+    protected override void OnInitialized()
+    {
+        GenerarMapaConSolucion();
+        ReiniciarPosicionRobot();
+    }
+
+
+    private void GenerarMapaConSolucion()
+    {
+        bool tieneSolucion = false;
+        while (!tieneSolucion)
+        {
+            GenerarMapaBase();
+            tieneSolucion = ValidarSiExisteCamino();
+        }
+    }
+
+    private void GenerarMapaBase()
+    {
+        Random rand = new Random();
+        for (int r = 0; r < Filas; r++)
+        {
+            for (int c = 0; c < Columnas; c++)
+            {
+                MatrizLaberinto[r, c] = 0;
+            }
+        }
+
+        int metaFila = rand.Next(0, 3);
+        int metaCol = rand.Next(2, Columnas);
+        MatrizLaberinto[metaFila, metaCol] = 2;
+
+        for (int r = 0; r < Filas; r++)
+        {
+            for (int c = 0; c < Columnas; c++)
+            {
+                if ((r == RobotFilaInicio && c == RobotColumnaInicio) || MatrizLaberinto[r, c] == 2)
+                {
+                    continue;
+                }
+
+                if (rand.Next(0, 100) < 28)
+                {
+                    MatrizLaberinto[r, c] = 1;
+                }
+            }
+        }
+    }
+
+    private bool ValidarSiExisteCamino()
+    {
+        bool[,] visitado = new bool[Filas, Columnas];
+        return AuxiliarFloodFill(RobotFilaInicio, RobotColumnaInicio, visitado);
+    }
+
+    private bool AuxiliarFloodFill(int f, int c, bool[,] visitado)
+    {
+        if (f < 0 || f >= Filas || c < 0 || c >= Columnas) return false;
+        if (MatrizLaberinto[f, c] == 1 || visitado[f, c]) return false;
+        if (MatrizLaberinto[f, c] == 2) return true;
+
+        visitado[f, c] = true;
+
+        if (AuxiliarFloodFill(f - 1, c, visitado)) return true;
+        if (AuxiliarFloodFill(f + 1, c, visitado)) return true;
+        if (AuxiliarFloodFill(f, c + 1, visitado)) return true;
+        if (AuxiliarFloodFill(f, c - 1, visitado)) return true;
+
+        return false;
+    }
+
+    private void ComandoNorte() { AgregarComando("MoverNorte"); }
+    private void ComandoSur() { AgregarComando("MoverSur"); }
+    private void ComandoEste() { AgregarComando("MoverEste"); }
+    private void ComandoOeste() { AgregarComando("MoverOeste"); }
+
+    private async void AgregarComando(string comando)
+    {
+        if (!EstaEjecutando)
+        {
+            // 🔊 Suena un "bip" arcade cada vez que cargás una dirección
+            await JSRuntime.InvokeVoidAsync("sonarArcade.bipBoton");
+
+            ColaComandos.Add(comando);
+            MensajeEstado = "";
+            StateHasChanged();
+        }
+    }
+
+    private void ReiniciarSoloRobot()
+    {
+        ColaComandos.Clear();
+        ReiniciarPosicionRobot();
+        IndiceLineaActiva = -1;
+        MensajeEstado = "Historial borrado. ¡Robot listo en la casilla de inicio!";
+        ClaseMensaje = "alert-info";
+    }
+
+    private void CambiarMapaCompleto()
+    {
+        ColaComandos.Clear();
+        GenerarMapaConSolucion();
+        ReiniciarPosicionRobot();
+        IndiceLineaActiva = -1;
+
+        ContadorMapas++;
+        IntentosMapaActual = 0;
+
+        MensajeEstado = "¡Nuevo mapa generado con solución garantizada!";
+        ClaseMensaje = "alert-info";
+    }
+
+    private void ReiniciarPosicionRobot()
+    {
+        RobotFila = RobotFilaInicio;
+        RobotColumna = RobotColumnaInicio;
+        DireccionActual = 0;
+    }
+
+    private async Task EjecutarSecuencia()
+    {
+        if (EstaEjecutando || ColaComandos.Count == 0) return;
+
+        EstaEjecutando = true;
+        IntentosMapaActual++;
+
+        MensajeEstado = "Ejecutando secuencia de código...";
+        ClaseMensaje = "alert-info";
+        await InvokeAsync(StateHasChanged);
+
+        try
+        {
+            for (int i = 0; i < ColaComandos.Count; i++)
+            {
+                IndiceLineaActiva = i;
+                string comando = ColaComandos[i];
+
+                // 🔊 Suena un mini-sonido mecánico por cada paso que da el robot
+                await JSRuntime.InvokeVoidAsync("sonarArcade.bipPaso");
+
+                if (comando == "MoverNorte") { DireccionActual = 0; RobotFila--; }
+                else if (comando == "MoverEste") { DireccionActual = 1; RobotColumna++; }
+                else if (comando == "MoverSur") { DireccionActual = 2; RobotFila++; }
+                else if (comando == "MoverOeste") { DireccionActual = 3; RobotColumna--; }
+
+                if (ValidarColision())
+                {
+                    // 🔊 Sonido de choque retro (grave y descendente)
+                    await JSRuntime.InvokeVoidAsync("sonarArcade.sonidoDerrota");
+
+                    MensajeEstado = "💥 ¡Le erraste! Volviendo a empezar...";
+                    ClaseMensaje = "alert-danger";
+                    await InvokeAsync(StateHasChanged);
+
+                    await Task.Delay(1500);
+
+                    ColaComandos.Clear();
+                    ReiniciarPosicionRobot();
+                    IndiceLineaActiva = -1;
+                    MensajeEstado = "Intentalo de nuevo. Corregí tus comandos.";
+                    ClaseMensaje = "alert-info";
+                    return;
+                }
+
+                await InvokeAsync(StateHasChanged);
+                await Task.Delay(700);
+
+                if (MatrizLaberinto[RobotFila, RobotColumna] == 2)
+                {
+                    // 🔊 Escala de notas alegre para la victoria
+                    await JSRuntime.InvokeVoidAsync("sonarArcade.sonidoVictoria");
+
+                    VictoriasTotales++;
+                    MensajeEstado = "🎉 ¡Excelente! Ruta completada de forma óptima.";
+                    ClaseMensaje = "alert-success";
+                    return;
+                }
+            }
+
+            // 🔊 Si termina los comandos y no pisó la meta, también es derrota táctica
+            await JSRuntime.InvokeVoidAsync("sonarArcade.sonidoDerrota");
+            MensajeEstado = "🛑 Ruta inconclusa. El robot no alcanzó el destino final.";
+            ClaseMensaje = "alert-danger";
+        }
+        catch (Exception ex)
+        {
+            MensajeEstado = $"❌ Fallo: {ex.Message}";
+            ClaseMensaje = "alert-danger";
+        }
+        finally
+        {
+            EstaEjecutando = false;
+            IndiceLineaActiva = -1;
+            await InvokeAsync(StateHasChanged);
+        }
+    }
+
+    private bool ValidarColision()
+    {
+        if (RobotFila < 0 || RobotFila >= Filas || RobotColumna < 0 || RobotColumna >= Columnas) return true;
+        return MatrizLaberinto[RobotFila, RobotColumna] == 1;
+    }
+
+    private string ObtenerClaseCelda(int f, int c)
+    {
+        if (MatrizLaberinto[f, c] == 1) return "celda-obstaculo";
+        if (MatrizLaberinto[f, c] == 2) return "celda-meta";
+        return "";
+    }
+
+    private int ObtenerRotacionRobot()
+    {
+        // Forzamos a que siempre devuelva 0 para que no gire nunca
+        return 0;
+    }
+}
