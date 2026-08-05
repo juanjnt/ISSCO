@@ -1,0 +1,14 @@
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\bin\Debug\net10.0\Clase1.exe
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\bin\Debug\net10.0\Clase1.deps.json
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\bin\Debug\net10.0\Clase1.runtimeconfig.json
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\bin\Debug\net10.0\Clase1.dll
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\bin\Debug\net10.0\Clase1.pdb
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\obj\Debug\net10.0\Clase1.GeneratedMSBuildEditorConfig.editorconfig
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\obj\Debug\net10.0\Clase1.AssemblyInfoInputs.cache
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\obj\Debug\net10.0\Clase1.AssemblyInfo.cs
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\obj\Debug\net10.0\Clase1.csproj.CoreCompileInputs.cache
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\obj\Debug\net10.0\Clase1.dll
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\obj\Debug\net10.0\refint\Clase1.dll
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\obj\Debug\net10.0\Clase1.pdb
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\obj\Debug\net10.0\Clase1.genruntimeconfig.cache
+G:\Archivos\Escritorio\ISSCO\2026\Programación I\Clase 1\Clase1\Clase1\obj\Debug\net10.0\ref\Clase1.dll
