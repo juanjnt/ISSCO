@@ -1,0 +1,15 @@
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\bin\Debug\net9.0\Clase 3.exe
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\bin\Debug\net9.0\Clase 3.deps.json
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\bin\Debug\net9.0\Clase 3.runtimeconfig.json
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\bin\Debug\net9.0\Clase 3.dll
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\bin\Debug\net9.0\Clase 3.pdb
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\obj\Debug\net9.0\Clase 3.GeneratedMSBuildEditorConfig.editorconfig
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\obj\Debug\net9.0\Clase 3.AssemblyInfoInputs.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\obj\Debug\net9.0\Clase 3.AssemblyInfo.cs
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\obj\Debug\net9.0\Clase 3.csproj.CoreCompileInputs.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\obj\Debug\net9.0\Clase 3.sourcelink.json
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\obj\Debug\net9.0\Clase 3.dll
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\obj\Debug\net9.0\refint\Clase 3.dll
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\obj\Debug\net9.0\Clase 3.pdb
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\obj\Debug\net9.0\Clase 3.genruntimeconfig.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 3\Clase 3\Clase 3\obj\Debug\net9.0\ref\Clase 3.dll
