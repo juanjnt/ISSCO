@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programación I\\Clase 3\\Clase 3\\Clase 3\\Clase 3.csproj": {}
+    "E:\\Repositorios\\ISSCO\\2026\\Programación I\\Clase 3\\Clase 3\\Clase 3\\Clase 3.csproj": {}
   },
   "projects": {
-    "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programación I\\Clase 3\\Clase 3\\Clase 3\\Clase 3.csproj": {
+    "E:\\Repositorios\\ISSCO\\2026\\Programación I\\Clase 3\\Clase 3\\Clase 3\\Clase 3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programación I\\Clase 3\\Clase 3\\Clase 3\\Clase 3.csproj",
+        "projectUniqueName": "E:\\Repositorios\\ISSCO\\2026\\Programación I\\Clase 3\\Clase 3\\Clase 3\\Clase 3.csproj",
         "projectName": "Clase 3",
-        "projectPath": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programación I\\Clase 3\\Clase 3\\Clase 3\\Clase 3.csproj",
+        "projectPath": "E:\\Repositorios\\ISSCO\\2026\\Programación I\\Clase 3\\Clase 3\\Clase 3\\Clase 3.csproj",
         "packagesPath": "C:\\Users\\Juani\\.nuget\\packages\\",
-        "outputPath": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programación I\\Clase 3\\Clase 3\\Clase 3\\obj\\",
+        "outputPath": "E:\\Repositorios\\ISSCO\\2026\\Programación I\\Clase 3\\Clase 3\\Clase 3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -31,6 +31,7 @@
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {}
           }
@@ -45,10 +46,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "imports": [
             "net461",
@@ -66,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
