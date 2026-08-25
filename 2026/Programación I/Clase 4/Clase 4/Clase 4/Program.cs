@@ -181,7 +181,7 @@ categoría de "Votos Nulos". Al terminar la carga de los 15 alumnos, mostrar en
 pantalla el total de votos obtenidos por el Candidato A, el Candidato B, los 
 Votos en Blanco y los Votos Nulos.*/
 
-int candidatoA = 0, candidatoB = 0, nulos = 0, blancos = 0;
+/*int candidatoA = 0, candidatoB = 0, nulos = 0, blancos = 0;
 
 for (int i = 0; i < 15; i++)
 {
@@ -207,4 +207,163 @@ Console.WriteLine("=========RESULTADO DE LA VOTACIÓN==========");
 Console.WriteLine($"Candidato A: {candidatoA} votos");
 Console.WriteLine($"Candidato B: {candidatoB} votos");
 Console.WriteLine($"Votos en Blanco: {blancos} votos");
-Console.WriteLine($"Votos Nulos: {nulos} votos");
+Console.WriteLine($"Votos Nulos: {nulos} votos");*/
+
+/*El gerente de una tienda de ropa realiza el cierre de caja de la semana registrando 
+ * la facturación total obtenida en los 6 días hábiles (de Lunes a Sábado). 
+ * En cada uno de los 6 días, el sistema solicitará el nombre del día (dia) 
+ * y el monto vendido en esa jornada (monto):
+
+Si el día es "LUNES" o "MARTES", la sucursal paga una tasa de 
+mantenimiento comercial del 5% sobre lo vendido en esa jornada.
+
+Si el día es "MIERCOLES" o "JUEVES", la tasa de mantenimiento comercial es del 3%.
+
+Si el día es "VIERNES" o "SABADO", la tasa es del 8%.
+
+El programa debe procesar los 6 días solicitados, calcular el costo 
+de la tasa comercial que le corresponde pagar a cada jornada y, 
+al finalizar la semana, mostrar el monto total de tasas acumuladas 
+que la sucursal deberá abonar.*/
+
+/*
+double tasaAcumulada = 0;
+
+for (int i = 0; i < 6; i++)
+{
+    Console.WriteLine("Ingrese el día");
+    string? dia = Console.ReadLine().ToUpper();
+    double tasa = 0.0;
+    Console.WriteLine("Ingrese el monto de lo vendido");
+    double monto = double.Parse(Console.ReadLine());
+
+    switch (dia)
+    {
+        case "LUNES":
+        case "MARTES":
+            tasa = 0.05;
+             break;
+        case "MIERCOLES":
+        case "JUEVES":
+            tasa = 0.03;
+            break;
+        case "VIERNES":
+        case "SABADO":
+            tasa = 0.08;
+            break;
+    }
+
+    tasaAcumulada += monto * tasa;
+
+}
+Console.WriteLine($"Total abonado en tasa: {tasaAcumulada:C2}");*/
+
+/*Un punto de venta presencial emite exactamente 12 entradas consecutivas 
+ * para un festival de música. Por cada entrada emitida, se debe ingresar 
+ * el tipo de pase seleccionado (tipoPase):
+
+"GENERAL": El precio es de $8.000.
+
+"CAMPO_DELANTERO": El precio es de $15.000.
+
+"VIP": El precio es de $25.000.
+
+El programa debe solicitar el tipo de pase para las 12 personas, 
+sumar el valor correspondiente a la recaudación general del evento y 
+contar cuántas entradas del tipo "VIP" se vendieron en total. 
+Al completar los 12 registros, debe imprimir el dinero total 
+recaudado por la boletería y la cantidad total de entradas VIP vendidas.*/
+/*Console.WriteLine("=====================");
+Console.WriteLine("|   Programación I  |");
+Console.WriteLine("=====================");
+
+int vip = 0;
+double total = 0;
+for (int i = 0; i < 12; i++)
+{
+    Console.WriteLine("Ingrese el tipo de pase");
+    Console.WriteLine("1- General");
+    Console.WriteLine("2- Campo delantero");
+    Console.WriteLine("3- Vip");
+    int tipoPase = int.Parse(Console.ReadLine());
+    double importe = 0;
+    switch (tipoPase)
+    {
+        case 1:
+            importe = 8000;
+            break;
+        case 2:
+            importe = 15000;
+            break;
+        case 3:
+            importe = 25000;
+            vip++;
+            break;
+        default:
+            break;
+    }
+    total += importe;
+}
+
+Console.WriteLine($"Importe total recaudado: {total:C2}");
+Console.WriteLine($"Total de entradas vip vendidas {vip}");*/
+
+/*Un centro de logística calcula el flete de un lote cerrado de 10 envíos individuales. 
+ * Para cada envío se ingresa la zona de destino (1: Local, 2: Provincial, 3: Nacional) 
+ * y el peso del paquete en kg. El precio base por zona es: Local $3.000, 
+ * Provincial $5.500 y Nacional $9.000. Si el paquete pesa más de 10 kg, 
+ * se cobra un recargo adicional de $450 por cada kg excedente. 
+ * Calcular y mostrar el costo final de cada envío. 
+ * Al procesar los 10 paquetes, mostrar la recaudación total del lote.*/
+
+double recaudacion = 0;
+for (int i = 0; i < 10; i++)
+{
+    Print($"Ingrese el peso del paquete {i+1}");
+    double peso = double.Parse(Console.ReadLine());
+    Print("Seleccione la zona");
+    Print("1- Local $3000");
+    Print("2- Provincial $5500");
+    Print("3- Nacional $9000");
+    int zona = int.Parse(Console.ReadLine());
+    double precio = CalculoPrecio(zona);
+    double costo = precio + CalculoRecargo(peso);
+    Print($"Importe a pagar por el envio {costo:C2}");
+    recaudacion += costo;
+}
+Print($"Recaudación total: {recaudacion:C2}");
+
+
+double CalculoRecargo(double peso)
+{
+    if (peso > 10)
+    {
+       double recargo = (peso - 10) * 450;
+       return recargo;
+    }
+    return 0;
+}
+
+
+double CalculoPrecio(int valor)
+{
+    double precio = 0;
+    switch (valor)
+    {
+        case 1:
+            precio = 3000;
+            break;
+        case 2:
+            precio = 5500;
+            break;
+        case 3:
+            precio = 9000;
+            break;
+    }
+    return precio;
+}
+
+void Print(string texto)
+{
+    Console.WriteLine(texto);
+}
