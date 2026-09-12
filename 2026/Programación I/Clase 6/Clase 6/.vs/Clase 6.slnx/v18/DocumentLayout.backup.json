@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 6\\Clase 6\\",
+  "WorkspaceRootPath": "E:\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 6\\Clase 6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6740B7E-32A7-4032-89EF-3952060831E3}|Clase 6\\Clase 6.csproj|e:\\desarrollo\\repositorios\\issco\\2026\\programaci\u00F3n i\\clase 6\\clase 6\\clase 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6740B7E-32A7-4032-89EF-3952060831E3}|Clase 6\\Clase 6.csproj|solutionrelative:clase 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{542AE297-D960-07EA-6E01-BE86AB4FE7DA}|Clase 6\\Clase 6.csproj|e:\\repositorios\\issco\\2026\\programaci\u00F3n i\\clase 6\\clase 6\\clase 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542AE297-D960-07EA-6E01-BE86AB4FE7DA}|Clase 6\\Clase 6.csproj|solutionrelative:clase 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 6\\Clase 6\\Clase 6\\Program.cs",
+              "DocumentMoniker": "E:\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 6\\Clase 6\\Clase 6\\Program.cs",
               "RelativeDocumentMoniker": "Clase 6\\Program.cs",
-              "ToolTip": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 6\\Clase 6\\Clase 6\\Program.cs",
-              "RelativeToolTip": "Clase 6\\Program.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAUwGYAAAABAAAAAAAAAA==",
+              "ToolTip": "E:\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 6\\Clase 6\\Clase 6\\Program.cs*",
+              "RelativeToolTip": "Clase 6\\Program.cs*",
+              "ViewState": "AgIAAA4DAAAAAAAAAAAiwB8DAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-04T23:57:58.77Z",
               "EditorCaption": ""
