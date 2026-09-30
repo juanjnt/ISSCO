@@ -1,0 +1,15 @@
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\bin\Debug\net10.0\Parcial.exe
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\bin\Debug\net10.0\Parcial.deps.json
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\bin\Debug\net10.0\Parcial.runtimeconfig.json
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\bin\Debug\net10.0\Parcial.dll
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\bin\Debug\net10.0\Parcial.pdb
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\obj\Debug\net10.0\Parcial.GeneratedMSBuildEditorConfig.editorconfig
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\obj\Debug\net10.0\Parcial.AssemblyInfoInputs.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\obj\Debug\net10.0\Parcial.AssemblyInfo.cs
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\obj\Debug\net10.0\Parcial.csproj.CoreCompileInputs.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\obj\Debug\net10.0\Parcial.sourcelink.json
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\obj\Debug\net10.0\Parcial.dll
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\obj\Debug\net10.0\refint\Parcial.dll
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\obj\Debug\net10.0\Parcial.pdb
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\obj\Debug\net10.0\Parcial.genruntimeconfig.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Parcial\Parcial\Parcial\obj\Debug\net10.0\ref\Parcial.dll

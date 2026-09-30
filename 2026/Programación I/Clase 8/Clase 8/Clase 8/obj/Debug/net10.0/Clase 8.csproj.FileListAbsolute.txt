@@ -1,0 +1,15 @@
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\bin\Debug\net10.0\Clase 8.exe
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\bin\Debug\net10.0\Clase 8.deps.json
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\bin\Debug\net10.0\Clase 8.runtimeconfig.json
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\bin\Debug\net10.0\Clase 8.dll
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\bin\Debug\net10.0\Clase 8.pdb
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\obj\Debug\net10.0\Clase 8.GeneratedMSBuildEditorConfig.editorconfig
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\obj\Debug\net10.0\Clase 8.AssemblyInfoInputs.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\obj\Debug\net10.0\Clase 8.AssemblyInfo.cs
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\obj\Debug\net10.0\Clase 8.csproj.CoreCompileInputs.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\obj\Debug\net10.0\Clase 8.sourcelink.json
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\obj\Debug\net10.0\Clase 8.dll
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\obj\Debug\net10.0\refint\Clase 8.dll
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\obj\Debug\net10.0\Clase 8.pdb
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\obj\Debug\net10.0\Clase 8.genruntimeconfig.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 8\Clase 8\Clase 8\obj\Debug\net10.0\ref\Clase 8.dll
