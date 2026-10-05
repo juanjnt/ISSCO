@@ -1,0 +1,6 @@
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 9\Clase 9\Clase 9\obj\Debug\net10.0\Clase 9.csproj.AssemblyReference.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 9\Clase 9\Clase 9\obj\Debug\net10.0\Clase 9.GeneratedMSBuildEditorConfig.editorconfig
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 9\Clase 9\Clase 9\obj\Debug\net10.0\Clase 9.AssemblyInfoInputs.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 9\Clase 9\Clase 9\obj\Debug\net10.0\Clase 9.AssemblyInfo.cs
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 9\Clase 9\Clase 9\obj\Debug\net10.0\Clase 9.csproj.CoreCompileInputs.cache
+E:\Desarrollo\Repositorios\ISSCO\2026\Programación I\Clase 9\Clase 9\Clase 9\obj\Debug\net10.0\Clase 9.sourcelink.json

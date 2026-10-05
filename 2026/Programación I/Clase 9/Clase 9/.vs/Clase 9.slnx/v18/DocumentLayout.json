@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 9\\Clase 9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D151EA-50B1-43C4-BC51-5D99A7769CDE}|Clase 9\\Clase 9.csproj|e:\\desarrollo\\repositorios\\issco\\2026\\programaci\u00F3n i\\clase 9\\clase 9\\clase 9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D151EA-50B1-43C4-BC51-5D99A7769CDE}|Clase 9\\Clase 9.csproj|solutionrelative:clase 9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795BF08A-0120-4328-94B4-E31C2C2FA9F1}|Clase9.Libreria\\Clase9.Libreria.csproj|e:\\desarrollo\\repositorios\\issco\\2026\\programaci\u00F3n i\\clase 9\\clase 9\\clase9.libreria\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795BF08A-0120-4328-94B4-E31C2C2FA9F1}|Clase9.Libreria\\Clase9.Libreria.csproj|solutionrelative:clase9.libreria\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795BF08A-0120-4328-94B4-E31C2C2FA9F1}|Clase9.Libreria\\Clase9.Libreria.csproj|e:\\desarrollo\\repositorios\\issco\\2026\\programaci\u00F3n i\\clase 9\\clase 9\\clase9.libreria\\clase9.libreria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{795BF08A-0120-4328-94B4-E31C2C2FA9F1}|Clase9.Libreria\\Clase9.Libreria.csproj|solutionrelative:clase9.libreria\\clase9.libreria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Clase9.Libreria",
+              "DocumentMoniker": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 9\\Clase 9\\Clase9.Libreria\\Clase9.Libreria.csproj",
+              "RelativeDocumentMoniker": "Clase9.Libreria\\Clase9.Libreria.csproj",
+              "ToolTip": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 9\\Clase 9\\Clase9.Libreria\\Clase9.Libreria.csproj",
+              "RelativeToolTip": "Clase9.Libreria\\Clase9.Libreria.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-02T22:55:14.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 9\\Clase 9\\Clase9.Libreria\\Persona.cs",
+              "RelativeDocumentMoniker": "Clase9.Libreria\\Persona.cs",
+              "ToolTip": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 9\\Clase 9\\Clase9.Libreria\\Persona.cs",
+              "RelativeToolTip": "Clase9.Libreria\\Persona.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T22:55:07.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 9\\Clase 9\\Clase 9\\Program.cs",
+              "RelativeDocumentMoniker": "Clase 9\\Program.cs",
+              "ToolTip": "E:\\Desarrollo\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 9\\Clase 9\\Clase 9\\Program.cs",
+              "RelativeToolTip": "Clase 9\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T22:44:33.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
