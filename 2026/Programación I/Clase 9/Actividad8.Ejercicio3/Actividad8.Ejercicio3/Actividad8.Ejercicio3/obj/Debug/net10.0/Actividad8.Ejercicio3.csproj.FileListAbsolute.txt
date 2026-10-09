@@ -1,0 +1,15 @@
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\bin\Debug\net10.0\Actividad8.Ejercicio3.exe
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\bin\Debug\net10.0\Actividad8.Ejercicio3.deps.json
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\bin\Debug\net10.0\Actividad8.Ejercicio3.runtimeconfig.json
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\bin\Debug\net10.0\Actividad8.Ejercicio3.dll
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\bin\Debug\net10.0\Actividad8.Ejercicio3.pdb
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\obj\Debug\net10.0\Actividad8.Ejercicio3.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\obj\Debug\net10.0\Actividad8.Ejercicio3.AssemblyInfoInputs.cache
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\obj\Debug\net10.0\Actividad8.Ejercicio3.AssemblyInfo.cs
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\obj\Debug\net10.0\Actividad8.Ejercicio3.csproj.CoreCompileInputs.cache
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\obj\Debug\net10.0\Actividad8.Ejercicio3.sourcelink.json
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\obj\Debug\net10.0\Actividad8.Ejercicio3.dll
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\obj\Debug\net10.0\refint\Actividad8.Ejercicio3.dll
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\obj\Debug\net10.0\Actividad8.Ejercicio3.pdb
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\obj\Debug\net10.0\Actividad8.Ejercicio3.genruntimeconfig.cache
+E:\Repositorios\ISSCO\2026\Programación I\Clase 9\Actividad8.Ejercicio3\Actividad8.Ejercicio3\Actividad8.Ejercicio3\obj\Debug\net10.0\ref\Actividad8.Ejercicio3.dll

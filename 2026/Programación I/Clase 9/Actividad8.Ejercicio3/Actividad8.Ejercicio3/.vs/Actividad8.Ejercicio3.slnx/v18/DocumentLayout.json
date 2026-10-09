@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 9\\Actividad8.Ejercicio3\\Actividad8.Ejercicio3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECA885F-C20D-4988-A61B-A8E2A4563632}|Actividad8.Ejercicio3\\Actividad8.Ejercicio3.csproj|e:\\repositorios\\issco\\2026\\programaci\u00F3n i\\clase 9\\actividad8.ejercicio3\\actividad8.ejercicio3\\actividad8.ejercicio3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ECA885F-C20D-4988-A61B-A8E2A4563632}|Actividad8.Ejercicio3\\Actividad8.Ejercicio3.csproj|solutionrelative:actividad8.ejercicio3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 9\\Actividad8.Ejercicio3\\Actividad8.Ejercicio3\\Actividad8.Ejercicio3\\Program.cs",
+              "RelativeDocumentMoniker": "Actividad8.Ejercicio3\\Program.cs",
+              "ToolTip": "E:\\Repositorios\\ISSCO\\2026\\Programaci\u00F3n I\\Clase 9\\Actividad8.Ejercicio3\\Actividad8.Ejercicio3\\Actividad8.Ejercicio3\\Program.cs",
+              "RelativeToolTip": "Actividad8.Ejercicio3\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T22:07:50.839Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
